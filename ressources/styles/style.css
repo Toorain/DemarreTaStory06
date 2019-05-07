@@ -1,3 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	padding: 0 30px 50px 30px;
+	background-color: #f0ebd8;
+}
+li, col{
+	text-align: left;
+}
+h1 {
+	color: #0d1321;
+}
+.col{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.fondRouge{
+	background-color: red;
+	height: 25vw;
+}
+.fondOrange{
+	background-color: orange;
+}
+.fondBleu{
+	background-color: #0d1321;
+}
+#lien{
+	text-align: center;
+	color: #f0ebd8;
+}
+.padding{
+	padding: 50px;
+}
+.borderMosa{
+	margin: 5px;
+}
+.paddingHeader{
+	padding: 20px;
+}
+section{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.taille50{
+	width: 50%;
+}
+.taille33{
+	width: 33.33%;
+}
+header{
+	position: sticky;
+	text-align: center;
+}
+/*Pour qui ?
+Pourquoi ?
+Comment ?
+Quand ?
+Où?
+
+Partenaires
+Formulaire*/
+
+.flip-card {
+  background-color: transparent;
+  height: 200px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+ 	transform: rotateX(180deg);
+}
+.flip-card:onclick .flip-card-inner {
+ 	transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+ 	backface-visibility: hidden;
+}
+
 #buttonForm
 {
 	margin: auto;
@@ -67,4 +167,16 @@
   color: black;
   text-decoration: none;
   cursor: pointer;
+
+
+.flip-card-front {
+ 	background-color: #3e5c76;
+ 	color: #1d2d44;
+}
+
+.flip-card-back {	
+	text-align: left;
+ 	background-color: #748cab;
+ 	color: #1d2d44;
+ 	transform: rotateX(180deg);
 }
