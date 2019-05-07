@@ -110,15 +110,16 @@ Formulaire*/
 
 #myBtn
 {
-	position: absolute;
-	width: 120px;
-	height: 120px;
+	position: fixed;
+	width: 140px;
+	height: 140px;
 	border-radius: 50%;
 	font-size: 20px;
 	background-color: blue;
+	box-shadow: 8px 3px darkgrey;
 	color: white;
-	right: 5%;
-	bottom: 5%;
+	right: 3%;
+	bottom: 3%;
 }
 
 .cookiesImg
@@ -145,11 +146,13 @@ Formulaire*/
 /* Modal Content/Box */
 .modal-content {
 	position: relative;
-	background-color: #fefefe;
-	margin: 15% auto; /* 15% from the top and centered */
-	padding: 20px;
+	top: 20%;
+	left: 26%;	
+	/*background-color: #fefefe;
+	margin: 15% auto;  15% from the top and centered 
+	padding: 20px;*/
 	/*border: 1px solid #888;*/
-	width: 51%; /* Could be more or less, depending on screen size */
+	width: 50%; /* Could be more or less, depending on screen size */
 }
 
 /* The Close Button */
@@ -167,7 +170,7 @@ Formulaire*/
   color: black;
   text-decoration: none;
   cursor: pointer;
-
+}
 
 .flip-card-front {
  	background-color: #3e5c76;
