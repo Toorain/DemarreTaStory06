@@ -14,6 +14,9 @@ li, col{
 h1 {
 	color: #0d1321;
 }
+p {
+    font-weight: normal;
+}
 .col{
 	display: flex;
 	flex-direction: column;
@@ -33,6 +36,8 @@ h1 {
 }
 .fondBleu{
 	background-color: #0d1321;
+	margin: 0;
+	width: 100%;
 }
 #lien{
 	text-align: center;
@@ -85,11 +90,12 @@ Formulaire*/
   transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
- 	transform: rotateX(180deg);
+.flip-card-front:hover{
+ 	filter: blur(2px);
+ 	cursor: pointer;
 }
-.flip-card:onclick .flip-card-inner {
- 	transform: rotateX(180deg);
+.flip-card-back:hover{
+	cursor: pointer;
 }
 
 .flip-card-front, .flip-card-back {
@@ -109,7 +115,9 @@ Formulaire*/
 	text-align: left;
  	background-color: #748cab;
  	color: #1d2d44;
+ 	padding: 0 50px;
  	transform: rotateX(180deg);
+ 	border: 2px solid #3e5c76;
 }
 
 
