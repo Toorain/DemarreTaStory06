@@ -36,7 +36,6 @@ p {
 }
 .fondBleu{
 	background-color: #0d1321;
-	margin: 0;
 	width: 100%;
 }
 #googleFormLink
@@ -102,7 +101,7 @@ Formulaire*/
 }
 
 .flip-card-front:hover{
- 	filter: blur(2px);
+ 	background-color: #748cab;
  	cursor: pointer;
 }
 .flip-card-back:hover{
@@ -161,5 +160,4 @@ Formulaire*/
 	body{
 		font-size: 16px;
 	}
-
  }
