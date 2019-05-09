@@ -31,6 +31,10 @@ p {
 	background-color: #ef767a;
 	width: 100%;
 }
+#blueSection
+{
+	margin: 5px auto;
+}
 #googleFormLink
 {
 	text-decoration: none;
@@ -45,6 +49,10 @@ p {
 	color: #f0ebd8;
 	font-size: 0.8em;
 	font-style: italic;
+}
+.bold
+{
+	font-weight: bold;
 }
 .padding{
 	padding: 50px;
