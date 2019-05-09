@@ -38,6 +38,10 @@ p {
 	background-color: #0d1321;
 	width: 100%;
 }
+#blueSection
+{
+	margin: 5px auto;
+}
 #googleFormLink
 {
 	text-decoration: none;
