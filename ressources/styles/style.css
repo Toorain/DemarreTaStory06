@@ -6,7 +6,7 @@
 body{
 	font-size: 18px;
 	padding: 0 30px 50px 30px;
-	background-color: #f0ebd8;
+	background-color: #f8f4e3;
 }
 li, col{
 	text-align: left;
@@ -27,15 +27,8 @@ p {
 	flex-direction: row;
 	justify-content: center;
 }
-.fondRouge{
-	background-color: red;
-	height: 25vw;
-}
-.fondOrange{
-	background-color: orange;
-}
 .fondBleu{
-	background-color: #0d1321;
+	background-color: #ef767a;
 	width: 100%;
 }
 #googleFormLink
@@ -101,7 +94,7 @@ Formulaire*/
 }
 
 .flip-card-front:hover{
- 	background-color: #748cab;
+ 	background-color: #7d7abc;
  	cursor: pointer;
 }
 .flip-card-back:hover{
@@ -116,18 +109,18 @@ Formulaire*/
 }
 
 .flip-card-front {
- 	background-color: #3e5c76;
+ 	background-color: #6457a6;
  	color: #1d2d44;
 }
 
 .flip-card-back {	
 	overflow: auto;
 	text-align: left;
- 	background-color: #748cab;
+ 	background-color: #7d7abc;
  	color: #1d2d44;
  	padding: 0 50px;
  	transform: rotateX(180deg);
- 	border: 2px solid #3e5c76;
+ 	border: 2px solid #6457a6;
 }
 
 
