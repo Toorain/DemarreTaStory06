@@ -39,6 +39,10 @@ p, li {
 	font-family: 'Times Sans Serif';
 	
 }
+p
+{
+	text-align: center;
+}
 .col{
 	display: flex;
 	flex-direction: column;
