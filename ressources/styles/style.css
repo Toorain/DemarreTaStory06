@@ -97,7 +97,11 @@ Formulaire*/
   width: 100%;
   height: 100%;
   text-align: center;
+  -moz-transition: transform 1s;
+  -webkit-transition: transform 1s;
   transition: transform 1s;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
 
@@ -113,6 +117,8 @@ Formulaire*/
  	position: absolute;
  	width: 100%;
  	height: 100%;
+ 	-moz-backface-visibility: hidden;
+ 	-webkit-backface-visibility: hidden;
  	backface-visibility: hidden;
 }
 
@@ -127,6 +133,8 @@ Formulaire*/
  	background-color: #7d7abc;
  	color: #1d2d44;
  	padding: 0 50px;
+ 	-moz-transform: rotateX(180deg);
+ 	-webkit-transform: rotateX(180deg);
  	transform: rotateX(180deg);
  	border: 2px solid #6457a6;
 }
