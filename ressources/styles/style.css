@@ -169,6 +169,14 @@ footer{
 	margin-bottom: 0 !important;
 }
 
+.flip-card-back p {
+	font-size: 30px;
+}
+
+.flip-card-back ul li{
+    font-size: 19px 
+}
+
  @media screen and (max-width: 361px){
  	section{
  		flex-direction: column;
