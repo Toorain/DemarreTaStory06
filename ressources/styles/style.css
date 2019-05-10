@@ -5,8 +5,11 @@
 }
 body{
 	font-size: 18px;
-	padding: 0 30px 50px 30px;
+	
 	background-color: #f8f4e3;
+}
+#wrapper{
+	padding: 0 30px;
 }
 @font-face {
     font-family: 'Times Sans Serif';
@@ -27,7 +30,10 @@ li, col{
 }
 h1 {
 	font-family: 'KG Blank Space Sketch';
-	color: #0d1321;
+	color: white;
+}
+header h1{
+	color: white;
 }
 p, li {
 	font-family: 'Times Sans Serif';
@@ -44,7 +50,7 @@ p, li {
 	justify-content: center;
 }
 .fondBleu{
-	background-color: #ef767a;
+	background-color: #76c065;
 	width: 100%;
 	margin: 10px 0;
 }
@@ -54,12 +60,12 @@ p, li {
 }
 #lien{
 	text-align: center;
-	color: #f0ebd8;
+	color: #343b65;
 }
 .lowkey
 {
 	text-align: center;
-	color: #f0ebd8;
+	color: #343b65;
 	font-size: 1em;
 	font-style: italic;
 }
@@ -74,7 +80,15 @@ p, li {
 	margin-right: 10px;
 }
 .paddingHeader{
+	position: sticky;
+	z-index: 10;
+	background-color: #76c065;
+	top: 0;
+	left: 0;
 	padding: 20px;
+	margin-bottom: 10px;
+	/*border-bottom: 1px solid black;*/
+	box-shadow: 0px 0px 10px 2px #23273a;
 }
 section{
 	display: flex;
@@ -91,14 +105,6 @@ header{
 	position: sticky;
 	text-align: center;
 }
-/*Pour qui ?
-Pourquoi ?
-Comment ?
-Quand ?
-Où?
-
-Partenaires
-Formulaire*/
 
 .flip-card {
   background-color: transparent;
@@ -130,8 +136,12 @@ Formulaire*/
 }
 
 .flip-card-front {
- 	background-color: #6457a6;
+	box-shadow: inset 0px 0px 10px 2px #23273a;
+ 	background-color: #343b65;
  	color: #1d2d44;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
 }
 
 .flip-card-back {	
@@ -143,7 +153,16 @@ Formulaire*/
  	transform: rotateX(180deg);
  	border: 2px solid #6457a6;
 }
-
+.logo{
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+	width: auto;
+}
+footer{
+	padding-bottom: 0;
+	margin-bottom: 0 !important;
+}
 
  @media screen and (max-width: 361px){
  	section{
