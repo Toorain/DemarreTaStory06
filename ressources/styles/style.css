@@ -8,6 +8,13 @@ body{
 	padding: 0 30px 50px 30px;
 	background-color: #f8f4e3;
 }
+@font-face {
+    font-family: 'Times Sans Serif';
+    src: url('../fonts/TimesSansSerif.woff2') format('woff2'),
+        url('../fonts/TimesSansSerif.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 li, col{
 	text-align: left;
 }
@@ -15,6 +22,7 @@ h1 {
 	color: #0d1321;
 }
 p {
+	font-family: 'Times Sans Serif';
     font-weight: normal;
 }
 .col{
