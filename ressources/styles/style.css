@@ -163,6 +163,7 @@ header{
 	height: 100%;
 	width: auto;
 }
+
 footer{
 	padding-bottom: 0;
 	margin-bottom: 0 !important;
@@ -181,6 +182,10 @@ footer{
 	body{
 		font-size: 12px;
 	}
+	.wrapper
+	{
+		display: none;
+	}
 
  }
 
@@ -197,6 +202,7 @@ footer{
 	body{
 		font-size: 16px;
 	}
+	
  }
 /*---------------------------CAROUSEL-------------------------*/
 
@@ -209,8 +215,7 @@ footer{
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  width: 1000px;
+  width: 100%;
   position: relative;
   margin: auto;
 }
