@@ -15,15 +15,23 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'KG Blank Space Sketch';
+    src: url('../fonts/KGBlankSpaceSketch.woff2') format('woff2'),
+        url('../fonts/KGBlankSpaceSketch.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 li, col{
 	text-align: left;
 }
 h1 {
+	font-family: 'KG Blank Space Sketch';
 	color: #0d1321;
 }
-p {
+p, li {
 	font-family: 'Times Sans Serif';
-    font-weight: normal;
+	
 }
 .col{
 	display: flex;
@@ -52,7 +60,7 @@ p {
 {
 	text-align: center;
 	color: #f0ebd8;
-	font-size: 0.8em;
+	font-size: 1em;
 	font-style: italic;
 }
 .bold
