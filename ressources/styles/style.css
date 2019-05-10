@@ -197,6 +197,10 @@ Formulaire*/
   display: none;
   text-align: center;
 }
+.mySlides img
+{
+	margin: 0 50px;
+}
 .mySlidesP {
   display: none;
   text-align: center;
