@@ -38,10 +38,7 @@ p {
 .fondBleu{
 	background-color: #ef767a;
 	width: 100%;
-}
-#blueSection
-{
-	margin: 5px auto;
+	margin: 10px 0;
 }
 #googleFormLink
 {
@@ -66,7 +63,7 @@ p {
 	padding: 50px;
 }
 .borderMosa{
-	margin: 5px;
+	margin-right: 10px;
 }
 .paddingHeader{
 	padding: 20px;
