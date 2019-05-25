@@ -1,0 +1,57 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#mainForm{
+	background-image: url(../img/green-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}	
+.formulaire span{
+	display: inline-block;
+}
+.formulaire img{
+	width: 5%;
+	position: absolute;
+	right: 100px;
+	top: 22px;
+	/*display: none;*/
+}
+.formulaire input{
+	text-align: center;
+}
+.error{
+	z-index: 1;
+}
+.valid{
+	z-index: 3;
+}
+form
+{
+	display: flex;
+	width: 500px;
+	margin: auto;
+	flex-direction: column;
+}
+
+.formulaire
+{
+	margin: 10px 0;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+
+.buttons-section
+{
+	display: flex;
+	justify-content: center;
+}
+
+.all
+{
+	color: red;
+}
